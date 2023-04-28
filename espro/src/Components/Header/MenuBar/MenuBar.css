@@ -1,0 +1,28 @@
+.MenuBar {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 12px;
+}
+
+.MenuBar button {
+    background: none;
+    border: none;
+    margin: 19px;
+    font-weight: bold;
+}
+
+.left, .center, .right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center img {
+    height: 28px;
+}
+
+span {
+    background-color: #D1E1E8;
+    padding: 4px 8px;
+    border-radius: 50%;
+}

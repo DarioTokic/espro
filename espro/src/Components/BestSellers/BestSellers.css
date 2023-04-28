@@ -1,0 +1,9 @@
+.BestSellers {
+    padding: 64px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
