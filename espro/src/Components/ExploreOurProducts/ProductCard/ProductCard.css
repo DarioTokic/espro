@@ -1,0 +1,25 @@
+.ProductCard {
+    margin: 16px;
+    width: 30%;
+    height: 500px;
+    padding: 16px;
+    background-image: var(--img1);
+    background-size:cover;
+    background-position: center;
+}
+
+.ProductCard:hover {
+    background-image: var(--img2);
+}
+
+.ProductCard h1 {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.ProductCard .shopBtn {
+    margin-top: 16px;
+    padding: 10px 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+}

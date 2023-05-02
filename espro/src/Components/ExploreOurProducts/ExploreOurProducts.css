@@ -1,0 +1,22 @@
+.ExploreOurProducts {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExploreOurProducts .cards {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.ExploreOurProducts .shopBtn {
+    background: none;
+    border: 1px #000 solid;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 50px;
+}
