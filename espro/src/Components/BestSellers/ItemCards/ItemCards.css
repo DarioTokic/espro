@@ -1,0 +1,7 @@
+.ItemCards {
+    padding: 64px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
