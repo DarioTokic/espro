@@ -1,0 +1,30 @@
+.Footer {
+    background: #659AB1;
+    padding: 64px 64px 16px 64px;
+    color: #fff;
+}
+
+.Footer .top {
+    display: flex;
+}
+
+.Footer .top .left p {
+    line-height: 1.6;
+    padding: 1rem 0;
+}
+
+
+.Footer form {
+    background: #84AEC1;
+    padding: 1rem;
+}
+
+.Footer .bottom {
+    display: flex;
+    color: #EFF5F7;
+    justify-content: space-between;
+}
+
+.Footer .bottom div {
+    display: flex;
+}

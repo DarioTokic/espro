@@ -1,0 +1,12 @@
+.FreshGrounds {
+    background-color: #EFF5F7;
+}
+
+.FreshGrounds h1 {
+    display: inline;
+    color: #D8E6EB;
+    font-size: 4.8rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-right: 1rem;
+}

@@ -7,6 +7,8 @@ import DesignedForRealLife from './Components/DesignedForRealLife/DesignedForRea
 import ExploreOurProducts from './Components/ExploreOurProducts/ExploreOurProducts';
 import MakeEveryCupAnExperience from './Components/MakeEveryCupAnExperience/MakeEveryCupAnExperience';
 import InThePress from './Components/InThePress/InThePress';
+import FreshGrounds from './Components/FreshGrounds/FreshGrounds';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <ExploreOurProducts />
       <MakeEveryCupAnExperience />
       <InThePress />
+      <FreshGrounds />
+
+      <Footer />
     </div>
   );
 }
