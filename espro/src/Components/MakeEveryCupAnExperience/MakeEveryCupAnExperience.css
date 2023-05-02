@@ -1,0 +1,54 @@
+.MakeEveryCupAnExperience {
+    display: flex;
+    height: 100dvh;
+}
+
+.MakeEveryCupAnExperience .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position-y: 70%;
+    padding-top: 128px;
+}
+
+.MakeEveryCupAnExperience .left p {
+    margin: 2rem 5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.MakeEveryCupAnExperience .left button {
+    background: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1.6rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.MakeEveryCupAnExperience .left button:hover {
+    transform:scale(1.1);
+}
+
+.MakeEveryCupAnExperience .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8DB9CA;
+    padding-top: 64px;
+}
+
+.MakeEveryCupAnExperience .right img {
+    padding-bottom: 64px;
+}
+
+.MakeEveryCupAnExperience .right h1 {
+    color: #AACBD8;
+    font-size: 3.6rem;
+}

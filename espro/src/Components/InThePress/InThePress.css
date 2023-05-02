@@ -1,0 +1,21 @@
+.InThePress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.InThePress h1 {
+    font-size: 1rem;
+}
+
+.InThePress p {
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.InThePress .logos img {
+    margin: 32px;
+}
