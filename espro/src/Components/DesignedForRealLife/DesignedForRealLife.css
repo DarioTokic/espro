@@ -1,0 +1,61 @@
+.DesignedForRealLife {
+    background-color: #F3F7F9;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    position: relative;
+    height: 88dvh;
+}
+
+.DesignedForRealLife .title {
+    width: 550px;
+}
+
+.DesignedForRealLife .title h2 {
+    font-size: 1rem;
+}
+
+.DesignedForRealLife .title h1 {
+    text-align: center;
+    padding: 1rem 4rem;
+}
+
+.DesignedForRealLife .title p {
+    text-align: center;
+    padding: 0 3rem;
+    line-height: 1.6;
+}
+
+.DesignedForRealLife img {
+    position: absolute;
+}
+
+.DesignedForRealLife .img1 {
+    top: 10%;
+    left: 4%;
+}
+
+.DesignedForRealLife .img2 {
+    top: 60%;
+    left: 4%;
+}
+
+.DesignedForRealLife .img3 {
+    top: 44%;
+    left: 24%;
+}
+
+.DesignedForRealLife .img4 {
+    top: 44%;
+    right: 10%;
+}
+
+.DesignedForRealLife .img5 {
+    top: 12%;
+    right: 16%;
+}
+
+.DesignedForRealLife .img6 {
+    top: 0%;
+    right: 0%;
+}
