@@ -8,16 +8,19 @@ const Header = (props) => {
     const [isShown, setIsShown] = useState(false);
 
     return (
-        <div>
+        <div className='Header'>
             <div className='BlueBar'>
                 <p>FREE SHIPPING ON ALL U.S. ORDERS $49.</p>
             </div>
-            <MenuBar 
+            <MenuBar
                 showItems={() => setIsShown(true)}
                 hideItems={() => setIsShown(false)}    
             />
             {isShown && (
-                <ItemsMenu/>
+                <ItemsMenu
+                    showItems={() => setIsShown(true)}
+                    hideItems={() => setIsShown(false)}   
+                />
             )}
         </div>
     )

@@ -1,3 +1,18 @@
 .ItemsMenu {
     display: flex;
 }
+
+.ItemsMenu .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.ItemsMenu .right button {
+    background: none;
+    border: 1px solid #000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+}

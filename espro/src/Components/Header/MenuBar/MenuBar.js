@@ -10,13 +10,15 @@ import arrowIosDownwardFill from '../../../assets/arrow-ios-downward-fill.svg'
 const MenuBar = (props) => {
 
     return (
-        <div className='MenuBar'>
+        <div 
+            className='MenuBar'
+            onMouseLeave={props.hideItems} 
+        >
             <div className='left'>
                 <button
                 onMouseEnter={props.showItems}
-                onMouseLeave={props.hideItems} 
                 className='shopBtn'
-            >SHOP <img src={arrowIosDownwardFill}/></button>
+            >SHOP <img src={arrowIosDownwardFill} alt='arrowIosDownwardFill'/></button>
                 <button className='ourStoryBtn'>OUR STORY</button>
             </div>
 
@@ -27,10 +29,10 @@ const MenuBar = (props) => {
             <div className='right'>
                 <button className='brewGuidesBtn'>BREW GUIDES</button>
                 <button className='blogBtn'>BLOG</button>
-                <div>
-                    <button className='searchLineBtn'><img src={searchLine}/></button>
-                    <button className='searchLineBtn'><img src={myAccount}/></button>
-                    <button className='searchLineBtn'><img src={shoppingBagIcon}/></button>
+                <div className='right'>
+                    <button className='searchLineBtn'><img src={searchLine} alt='searchLine'/></button>
+                    <button className='searchLineBtn'><img src={myAccount} alt='myAccount'/></button>
+                    <button className='searchLineBtn'><img src={shoppingBagIcon} alt='shoppingBagIcon'/></button>
                     <span>0</span>
                 </div>
             </div>
