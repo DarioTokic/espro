@@ -1,3 +1,55 @@
 .ShowUs {
     background-color: #EFF5F7;
 }
+
+.ShowUs .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6;
+    padding: 64px;
+}
+
+.ShowUs .title button {
+    background: none;
+    border: 1px solid #000;
+    padding: 1rem 1.2rem;
+    border-radius: 50px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.ShowUs .title button:hover {
+    padding: 1.1rem 1.4rem;
+    transform: translateX(0.1rem);
+}
+
+.ShowUs .title button img {
+    margin-right: 16px;
+}
+
+.ShowUs .images {
+    padding-bottom: 64px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.ShowUs .images img {
+    margin: 16px;
+    height: 266px;
+    width: 266px;
+}
+
+.ShowUs .images .up {
+    transform: translateY(-20px);
+}
+
+.ShowUs .images .down {
+    transform: translateY(20px);
+}
