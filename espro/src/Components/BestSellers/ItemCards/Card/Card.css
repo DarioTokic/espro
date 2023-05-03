@@ -41,12 +41,12 @@
     padding: 1rem 0;
 }
 
-.Card .colours {
+.Card .colors {
     padding: 1rem 0;
     display: flex;
 }
 
-.Card .colours > div {
+.Card .colors > div {
     height: 22px;
     width: 22px;
     border: #DEDEDE 1px solid;

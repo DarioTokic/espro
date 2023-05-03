@@ -58,7 +58,7 @@ const card = (props) => (
                 </div>
             }
             <h1 className='prodTitle'>{props.title}</h1>
-            <p>${props.startingPrice} - ${props.endingPrice}</p>
+            <p>{props.price}</p>
             <div className='colours'>
                 <div className='grayProduct'></div>
                 <div className='whiteProduct'></div>

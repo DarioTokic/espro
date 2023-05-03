@@ -42,4 +42,15 @@
     padding: 8px;
     transform: translateY(24px);
     scale: 0.6;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(30); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(30); }
 }
