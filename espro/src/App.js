@@ -10,6 +10,7 @@ import InThePress from './Components/InThePress/InThePress';
 import FreshGrounds from './Components/FreshGrounds/FreshGrounds';
 import Footer from './Components/Footer/Footer';
 import ShowUs from './Components/ShowUs/ShowUs';
+import TheUltimateBrewGuides from './Components/TheUltimateBrewGuides/TheUltimateBrewGuides';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <MakeEveryCupAnExperience />
       <InThePress />
       <FreshGrounds />
-
+      <TheUltimateBrewGuides />
       <ShowUs />
       <Footer />
     </div>

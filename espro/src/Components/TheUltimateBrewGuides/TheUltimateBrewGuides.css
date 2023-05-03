@@ -1,0 +1,49 @@
+.TheUltimateBrewGuides {
+    display: flex;
+    padding: 64px;
+}
+
+.TheUltimateBrewGuides .left {
+    flex: 0.9;
+    line-height: 1.6;
+    margin: 64px 0;
+}
+
+.TheUltimateBrewGuides .left h1 {
+    margin: 1rem 0;
+}
+
+.TheUltimateBrewGuides .left p {
+    margin: 1rem 0 2rem 0;
+}
+
+.TheUltimateBrewGuides .left button {
+    background: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.TheUltimateBrewGuides .left button:hover {
+    padding: 1.4rem 3.6rem;
+    margin: -0.2rem -0.6rem;
+}
+
+.TheUltimateBrewGuides .right {
+    position: relative;
+    flex: 1.1;
+    margin: 32px 0;
+}
+
+.TheUltimateBrewGuides .right .img1 {
+    width: 80%;
+    box-shadow: #84AEC1 60px 60px;
+}
+.TheUltimateBrewGuides .right .img2 {
+    position: absolute;
+    left: 69.6%;
+    top: -70px;
+}
