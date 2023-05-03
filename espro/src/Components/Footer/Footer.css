@@ -8,6 +8,16 @@
     display: flex;
 }
 
+.Footer .top .left {
+    flex: 0.8;
+}
+
+.Footer .top .right {
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Footer .top .left p {
     line-height: 1.6;
     padding: 1rem 0;
@@ -16,7 +26,49 @@
 
 .Footer form {
     background: #84AEC1;
-    padding: 1rem;
+    padding: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+
+.Footer form input {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.Footer .dots {
+    margin: 64px 0;
+    display: flex;
+}
+
+.Footer .mid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.Footer .mid h1 {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 8px;
+}
+
+.Footer .mid p {
+    line-height: 1.6;
+}
+
+.Footer .mid .media {
+    height: 24px;
+    width: 24px;
+    background-color: #84AEC1;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 8px;
 }
 
 .Footer .bottom {

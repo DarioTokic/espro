@@ -9,6 +9,7 @@ import MakeEveryCupAnExperience from './Components/MakeEveryCupAnExperience/Make
 import InThePress from './Components/InThePress/InThePress';
 import FreshGrounds from './Components/FreshGrounds/FreshGrounds';
 import Footer from './Components/Footer/Footer';
+import ShowUs from './Components/ShowUs/ShowUs';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <InThePress />
       <FreshGrounds />
 
+      <ShowUs />
       <Footer />
     </div>
   );
