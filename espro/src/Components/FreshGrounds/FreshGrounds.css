@@ -1,12 +1,50 @@
 .FreshGrounds {
     background-color: #EFF5F7;
+    padding-bottom: 32px;
 }
 
-.FreshGrounds h1 {
+.FreshGrounds .title {
     display: inline;
     color: #D8E6EB;
     font-size: 4.8rem;
     white-space: nowrap;
     overflow-x: auto;
     padding-right: 1rem;
+}
+
+.FreshGrounds .video {
+    margin: 32px 64px; 
+    text-align: center;
+    line-height: 1.6;
+    color: #fff;
+    padding: 18%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.FreshGrounds .video h1 {
+    font-size: 3rem;
+}
+
+.FreshGrounds .video p {
+    margin: 1rem 0 2rem 0;
+}
+
+.FreshGrounds .video button {
+    background: none;
+    padding: 1.4rem 3rem;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.FreshGrounds .video button:hover {
+    padding: 1.6rem 3.4rem;
+    margin: -.2rem -.4rem;
 }
