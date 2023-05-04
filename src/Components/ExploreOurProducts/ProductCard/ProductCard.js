@@ -13,7 +13,8 @@ const ProductCard = (props) => {
             className='ProductCard'
             style={{
                 '--img1': `url(${props.img1})`,
-                '--img2': `url(${props.img2})`
+                '--img2': `url(${props.img2})`,
+                'backgroundColor': `${props.colour}`
                 }}
         >
             <h1>{props.name}</h1>

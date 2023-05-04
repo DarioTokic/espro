@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Hero.css';
-import background from '../../assets/heroBackground.png';
 import arrowdown from '../../assets/arrow-right-short.svg';
 
 const hero = (props) => (
@@ -17,7 +16,11 @@ const hero = (props) => (
             </p>
             <button className='heroBtn'>POUR ON THE GO</button>
 
-            <button className='exploreBtn'>EXPLORE <img src={arrowdown} /></button>
+            <button className='exploreBtn' onClick={(event) => {
+                event.target.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    document.querySelector('.BestSellers').scrollIntoView({ behavior: 'smooth'})
+            })}}>EXPLORE <img src={arrowdown} alt='arrowdown' /></button>
         </div>
     </div>
 );

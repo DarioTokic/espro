@@ -15,9 +15,9 @@ const exploreOurProducts = (props) => (
     <div className='ExploreOurProducts'>
         <h1>EXPLORE OUR PRODUCTS</h1>
         <div className='cards'>
-            <ProductCard img1={img11} img2={img12} name='FRENCH PRESS' />
-            <ProductCard img1={img21} img2={img22} name='POUR OVER' />
-            <ProductCard img1={img31} img2={img32} name='COLD BREW' />
+            <ProductCard img1={img11} img2={img12} name='FRENCH PRESS' colour='#8DB9CA' />
+            <ProductCard img1={img21} img2={img22} name='POUR OVER' colour='#7FA9AE' />
+            <ProductCard img1={img31} img2={img32} name='COLD BREW' colour='#9099BA' />
         </div>
         <button className='shopBtn'>SHOP ALL PRODUCTS</button>
     </div>
