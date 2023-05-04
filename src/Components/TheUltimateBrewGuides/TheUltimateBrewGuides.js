@@ -22,7 +22,7 @@ const theUltimateBrewGuides = (props) => (
         </div>
         <div className='right'>
             <img className='img1' src={img1} alt='img1' />
-            <img className='img2' src={img2} alt='img2' />
+            <img className='img2 rotate' src={img2} alt='img2' />
         </div>
     </div>
 );
