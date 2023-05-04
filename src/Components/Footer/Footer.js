@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Footer.css';
 
-import Dot from './Dot/Dot';
+import Dot from '../Dot/Dot';
 
 import esproLogowhite from '../../assets/esproLogoWhite.svg';
 import facebook from '../../assets/facebook.svg';

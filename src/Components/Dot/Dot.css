@@ -1,6 +1,6 @@
 .Dot {
     height: 4px;
     width: 4px;
-    margin: 8px;
+    margin: 16px 8px;
     border-radius: 50px;
 }

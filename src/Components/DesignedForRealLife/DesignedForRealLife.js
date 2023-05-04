@@ -9,6 +9,8 @@ import img4 from '../../assets/section2_4.png';
 import img5 from '../../assets/section2_5.png';
 import img6 from '../../assets/section2_6.png';
 
+import Dot from '../Dot/Dot';
+
 const designedForRealLife = (props) => (
     <div className='DesignedForRealLife'>
         <div className='title'>
@@ -27,6 +29,32 @@ const designedForRealLife = (props) => (
         <img className='img4' src={img4} alt='img4' />
         <img className='img5' src={img5} alt='img5' />
         <img className='img6' src={img6} alt='img6' />
+
+        <div className='dots'>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+            <Dot className='dot' colour='#659AB1'/>
+        </div>
     </div>
 );
 

@@ -7,7 +7,6 @@ import arrowdown from '../../assets/arrow-right-short.svg';
 const hero = (props) => (
     <div 
         className='Hero'
-        style={{backgroundImage: `url(${background})`}}
     >
         <div className='center'>
             <h1>BREW ANYWHERE. BE ANYWHERE.</h1>

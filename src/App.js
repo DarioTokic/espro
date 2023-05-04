@@ -1,5 +1,7 @@
 import './App.css';
 
+import { Parallax } from 'react-parallax';
+
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import BestSellers from './Components/BestSellers/BestSellsers';
@@ -12,11 +14,15 @@ import Footer from './Components/Footer/Footer';
 import ShowUs from './Components/ShowUs/ShowUs';
 import TheUltimateBrewGuides from './Components/TheUltimateBrewGuides/TheUltimateBrewGuides';
 
+import heroBg from './assets/heroBackground.png';
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Hero />
+      <Parallax strength={300} bgImage={heroBg}>
+        <Hero />
+      </Parallax>
       <BestSellers />
       <DesignedForRealLife />
       <ExploreOurProducts />
