@@ -6,9 +6,14 @@
     align-items: center;
 }
 
+.ExploreOurProducts h1 {
+    font: normal normal bold 40px/43px Barlow Condensed;
+}
+
 .ExploreOurProducts .cards {
     display: flex;
     width: 100%;
+    margin: 32px 0;
 }
 
 
@@ -19,4 +24,5 @@
     font-weight: bold;
     padding: 1rem;
     border-radius: 50px;
+    letter-spacing: 1.8px;
 }

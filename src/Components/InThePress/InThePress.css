@@ -7,13 +7,14 @@
 }
 
 .InThePress h1 {
-    font-size: 1rem;
+    font: normal normal bold 12px/25px Josefin Sans;
+    letter-spacing: 1.2px;
 }
 
 .InThePress p {
     padding: 2rem;
     text-align: center;
-    line-height: 1.6;
+    font: normal normal normal 22px/38px Nunito;
 }
 
 .InThePress .logos img {

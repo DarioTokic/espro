@@ -37,8 +37,12 @@
 .Card .prodTitle {
     display: block;
     width: 268px;
-    font-size: 0.8rem;
     padding: 1rem 0;
+    font: normal normal bold 14px/21px Josefin Sans;
+}
+
+.Card .prodPrice {
+    font: normal normal normal 15px/21px Nunito;
 }
 
 .Card .colors {

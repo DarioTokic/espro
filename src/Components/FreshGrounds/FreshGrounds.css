@@ -6,10 +6,11 @@
 .FreshGrounds .title {
     display: inline;
     color: #D8E6EB;
-    font-size: 4.8rem;
     white-space: nowrap;
     overflow-x: auto;
     padding-right: 1rem;
+    font: normal normal bold 105px/126px Barlow Condensed;
+    letter-spacing: 2.63px;
 }
 
 .FreshGrounds .video {
@@ -22,12 +23,18 @@
     border-radius: 20px;
 }
 
+.FreshGrounds .video h2 {
+    font-size: 0.9rem;
+}
+
 .FreshGrounds .video h1 {
-    font-size: 3rem;
+    font: normal normal bold 48px/52px Barlow Condensed;
+    letter-spacing: 1.2px;
 }
 
 .FreshGrounds .video p {
     margin: 1rem 0 2rem 0;
+    font: normal normal normal 15px/25px Nunito;
 }
 
 .FreshGrounds .video button {
@@ -39,9 +46,10 @@
     display: flex-box;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
     font-weight: bold;
     transition: all 0.3s;
+    font: normal normal bold 12px/14px Josefin Sans;
+    letter-spacing: 1.8px;
 }
 
 .FreshGrounds .video button:hover {

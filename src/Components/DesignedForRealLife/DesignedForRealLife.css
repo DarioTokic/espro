@@ -12,12 +12,13 @@
 }
 
 .DesignedForRealLife .title h2 {
-    font-size: 1rem;
+    font: normal normal bold 12px/25px Josefin Sans;
 }
 
 .DesignedForRealLife .title h1 {
     text-align: center;
     padding: 1rem 4rem;
+    font: normal normal bold 48px/52px Barlow Condensed;
 }
 
 .DesignedForRealLife .title p {

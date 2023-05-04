@@ -14,12 +14,14 @@
 
 .ProductCard h1 {
     color: #fff;
-    font-size: 1.4rem;
+    font: normal normal bold 22px/50px Josefin Sans;
 }
 
 .ProductCard .shopBtn {
+    font: normal normal bold 12px/50px Josefin Sans;
     margin-top: 16px;
-    padding: 10px 14px;
+    padding: 0 32px;
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
+    
 }
