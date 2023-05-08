@@ -4,7 +4,7 @@ import './Item.css';
 
 const item = (props) => (
     <div className='Item'>
-        <img src={props.image} />
+        <img src={props.image} alt='productImage' />
         <a>{props.name}</a>
     </div>
 );

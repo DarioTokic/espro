@@ -7,54 +7,54 @@ import starEmpty from '../../../../assets/starEmpty.svg';
 
 const card = (props) => (
     <div className='Card'>
-        <img src={props.image} />
+        <img src={props.image} alt='productImage' />
         <div className='description'>
-            {props.stars == '5' ?
+            {props.stars === '5' ?
                 <div className='stars'>
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
                 </div>
-            :props.stars == '4' ?
+            :props.stars === '4' ?
                 <div className='stars'>
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={starEmpty} />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={starEmpty} alt='starEmpty' />
                 </div>
-            :props.stars == '3' ?
+            :props.stars === '3' ?
                 <div className='stars'>
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
                 </div>
-            :props.stars == '2' ?
+            :props.stars === '2' ?
                 <div className='stars'>
-                    <img src={star} />
-                    <img src={star} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
                 </div>
-            :props.stars == '1' ?
+            :props.stars === '1' ?
                 <div className='stars'>
-                    <img src={star} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
+                    <img src={star} alt='star' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
                 </div>
             :   <div className='stars'>
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
-                    <img src={starEmpty} />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
+                    <img src={starEmpty} alt='starEmpty' />
                 </div>
             }
             <h1 className='prodTitle'>{props.title}</h1>

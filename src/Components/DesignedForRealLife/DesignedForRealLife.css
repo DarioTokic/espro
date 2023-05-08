@@ -29,39 +29,79 @@
 
 .DesignedForRealLife img {
     position: absolute;
+    transition: all .6s;
 }
 
 .DesignedForRealLife .img1 {
     top: 10%;
     left: 4%;
+    transform: translateX(-200%);
+}
+
+.DesignedForRealLife .img1.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .img2 {
     top: 60%;
     left: 4%;
+    transform: translateX(-200%);
+}
+
+.DesignedForRealLife .img2.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .img3 {
     top: 44%;
     left: 24%;
+    transform: translateX(-200%);
+}
+
+.DesignedForRealLife .img3.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .img4 {
     top: 44%;
     right: 10%;
+    transform: translateX(200%);
+}
+
+.DesignedForRealLife .img4.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .img5 {
     top: 12%;
     right: 16%;
+    transform: translateX(300%);
+}
+
+.DesignedForRealLife .img5.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .img6 {
     top: 0%;
     right: 0%;
+    transform: translateX(200%);
+}
+
+.DesignedForRealLife .img6.visible {
+    transform: translateX(0%);
 }
 
 .DesignedForRealLife .dots {
     position: absolute;
     top: 50%;
+}
+
+.DesignedForRealLife .dots .Dot {
+    opacity: 0;
+    transition: all .3s;
+}
+
+.DesignedForRealLife .dots .visible {
+    opacity: 1;
 }

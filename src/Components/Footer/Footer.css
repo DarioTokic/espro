@@ -49,7 +49,13 @@
     border: none;
     color: #fff;
     font: normal normal normal 17px/27px Nunito;
+    outline: none!important;
 }
+
+.Footer form input[type=text]:focus {
+    border: none;
+}
+
 .Footer form input[type=submit] {
     font: normal normal bold 12px/32px Josefin Sans;
 }

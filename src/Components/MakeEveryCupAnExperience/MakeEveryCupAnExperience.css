@@ -1,6 +1,8 @@
 .MakeEveryCupAnExperience {
     display: flex;
     height: 100dvh;
+
+    position: relative;
 }
 
 .MakeEveryCupAnExperience .left {
@@ -35,6 +37,14 @@
     letter-spacing: 1.8px;
 }
 
+.MakeEveryCupAnExperience .dots {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-62%, -50%);
+}
+
 .MakeEveryCupAnExperience .left button:hover {
     transform:scale(1.1);
 }
@@ -58,3 +68,4 @@
     font: normal normal bold 84px/101px Barlow Condensed;
     letter-spacing: 2.1px;
 }
+
