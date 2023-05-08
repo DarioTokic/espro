@@ -15,8 +15,15 @@
     padding: 2rem;
     text-align: center;
     font: normal normal normal 22px/38px Nunito;
+    height: 128px;
 }
 
 .InThePress .logos img {
     margin: 32px;
+    opacity: .5;
+    transition: all .3s;
+}
+
+.InThePress .logos .active {
+    opacity: 1;
 }
