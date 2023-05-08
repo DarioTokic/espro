@@ -59,9 +59,21 @@
     padding-top: 64px;
 }
 
+.MakeEveryCupAnExperience .right .carousel {
+    width: 54%;
+}
+
+.MakeEveryCupAnExperience .right .slides {
+    width: 100%;
+}
+
+/*
+
 .MakeEveryCupAnExperience .right img {
     padding-bottom: 64px;
 }
+
+*/
 
 .MakeEveryCupAnExperience .right h1 {
     color: #AACBD8;
