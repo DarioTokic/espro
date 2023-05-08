@@ -62,3 +62,11 @@
     50%  { transform: translateY(-10px); }
     100% { transform: translateY(30); }
 }
+
+
+@media screen and (max-width: 500px) {
+
+    .Hero .center {
+        width: 100%;
+    }
+}

@@ -4,3 +4,9 @@
     flex-wrap: nowrap;
     overflow-x: auto;
 }
+
+@media screen and (max-width: 500px) {
+    .ItemCards {
+        display: block;
+    }
+}

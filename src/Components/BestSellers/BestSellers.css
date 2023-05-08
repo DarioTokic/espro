@@ -15,3 +15,9 @@
 .BestSellers .title h1 {
     font: normal normal bold 40px/50px Barlow Condensed;
 }
+
+@media screen and (max-width: 500px) {
+    .BestSellers {
+        padding: 32px;
+    }
+}

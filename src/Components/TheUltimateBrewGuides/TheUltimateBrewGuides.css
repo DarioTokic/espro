@@ -67,3 +67,23 @@
       transform: rotate(359deg);
     }
 }
+
+
+@media screen and (max-width: 900px) {
+
+    .TheUltimateBrewGuides .right {
+        display: flex;
+        align-items: center;
+    }
+
+    .TheUltimateBrewGuides .right .img1 {
+        width: 100%;
+        
+    }
+
+    .TheUltimateBrewGuides .right .img2 {
+        top: 180px;
+        left: 80%;
+        height: 100px;
+    }
+}

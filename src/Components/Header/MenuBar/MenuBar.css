@@ -30,3 +30,19 @@ span {
     padding: 4px 8px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 500px) {
+    .MenuBar {
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .MenuBar .center {
+        justify-content: center;
+    }
+
+    .MenuBar .left, .MenuBar .right {
+        display: none;
+    }
+}

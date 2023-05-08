@@ -17,3 +17,10 @@
     border-radius: 50px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 900px) {
+    
+    .ItemsMenu .right  h1{
+        font-size: 1rem;
+    }
+}

@@ -17,6 +17,7 @@ const MenuBar = (props) => {
             <div className='left'>
                 <button
                 onMouseEnter={props.showItems}
+                onClick={props.isShown ? props.hideItems : props.showItems}
                 className='shopBtn'
             >SHOP <img src={arrowIosDownwardFill} alt='arrowIosDownwardFill'/></button>
                 <button className='ourStoryBtn'>OUR STORY</button>

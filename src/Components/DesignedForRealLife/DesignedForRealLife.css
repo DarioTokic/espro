@@ -105,3 +105,53 @@
 .DesignedForRealLife .dots .visible {
     opacity: 1;
 }
+
+@media screen and (max-width: 900px) {
+    .DesignedForRealLife img {
+        height: 20%;
+    }
+
+    .DesignedForRealLife .img1 {
+        top: 30%;
+        left: 2%;
+    }
+
+    .DesignedForRealLife .img2 {
+        top: 74%;
+    }
+
+    .DesignedForRealLife .img3 {
+        top: 52%;
+        left: 20%;
+    }
+
+    .DesignedForRealLife .img4 {
+        top: 70%;
+    }
+
+    .DesignedForRealLife .img5 {
+        top: 44%;
+        right: 24%;
+    }
+
+    .DesignedForRealLife .img6 {
+        top: 28%;
+        right: -6%;
+        height: 30%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .DesignedForRealLife {
+        padding: 16px;
+        height: 100dvh;
+    }
+
+    .DesignedForRealLife .dots {
+        display: none;
+    }
+
+    
+    
+}

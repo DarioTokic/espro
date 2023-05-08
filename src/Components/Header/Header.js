@@ -14,7 +14,8 @@ const Header = (props) => {
             </div>
             <MenuBar
                 showItems={() => setIsShown(true)}
-                hideItems={() => setIsShown(false)}    
+                hideItems={() => setIsShown(false)}
+                isShown={isShown}   
             />
             {isShown && (
                 <ItemsMenu

@@ -27,3 +27,19 @@
 .InThePress .logos .active {
     opacity: 1;
 }
+
+@media screen and (max-width: 900px) {
+    .InThePress p {
+        height: 256px;
+    }
+
+    .InThePress .logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .InThePress .logos img {
+        margin: 16px;
+    }
+}

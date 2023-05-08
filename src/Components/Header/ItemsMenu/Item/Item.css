@@ -31,3 +31,14 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+
+@media screen and (max-width: 900px) {
+    .Item {
+        margin: 32px;
+    }
+
+    .Item a {
+        font-size: 1.2rem;
+    }
+}

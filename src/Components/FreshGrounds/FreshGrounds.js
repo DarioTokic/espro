@@ -4,6 +4,7 @@ import './FreshGrounds.css';
 
 import background from '../../assets/freshGrounds.png';
 import playBtn from '../../assets/playButton.svg';
+//import coffee from '../../assets/coffee.gif';
 
 const freshGrounds = (props) => (
     <div className='FreshGrounds'>

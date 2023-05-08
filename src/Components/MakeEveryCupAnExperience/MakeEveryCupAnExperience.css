@@ -73,3 +73,13 @@
     letter-spacing: 2.1px;
 }
 
+@media screen and (max-width: 900px) {
+    .MakeEveryCupAnExperience { 
+        flex-direction: column;
+    }
+
+    .MakeEveryCupAnExperience .dots {
+        top: 40%;
+        left: 58%;
+    }
+}
