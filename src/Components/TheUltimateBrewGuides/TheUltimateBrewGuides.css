@@ -87,3 +87,31 @@
         height: 100px;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .TheUltimateBrewGuides {
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .TheUltimateBrewGuides .left h1{
+        font-size: 1.5rem;
+    }
+
+    .TheUltimateBrewGuides .left p {
+        line-height: 1.4;
+    }
+
+    .TheUltimateBrewGuides .right .img1 {
+        width: 80%;
+        margin-bottom: 16px;
+        box-shadow: #84AEC1 32px 32px;
+    }
+
+   .TheUltimateBrewGuides .right .img2 {
+        top: -32px;
+        left: 64%;
+        height: 80px;
+    }
+}

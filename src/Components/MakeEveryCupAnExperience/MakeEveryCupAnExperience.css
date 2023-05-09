@@ -83,3 +83,25 @@
         left: 58%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .MakeEveryCupAnExperience .left {
+        padding: 32px 16px 16px 16px;
+    }
+
+    .MakeEveryCupAnExperience .left h1 {
+        font-size: 1.6rem;
+    }
+
+    .MakeEveryCupAnExperience .left p {
+        margin: 1rem;
+    }
+
+    .MakeEveryCupAnExperience .dots {
+        display: none;
+    }
+
+    .MakeEveryCupAnExperience .right h1 {
+        font-size: 3rem;
+    }
+}

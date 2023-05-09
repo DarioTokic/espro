@@ -125,3 +125,27 @@ letter-spacing: 0.7px;
         width: 16px;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .Footer form {
+        padding: 1rem;
+    }
+
+    .Footer .mid {
+        flex-wrap: wrap;
+    }
+
+    .Footer .mid .col {
+        margin: 16px;
+    }
+
+    .Footer .mid .col .esproLogo {
+        height: 32%;
+    }
+
+    .Footer .bottom {
+        font-size: .6rem;
+    }
+}
+

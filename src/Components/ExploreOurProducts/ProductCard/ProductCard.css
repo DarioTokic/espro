@@ -31,3 +31,18 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width: 500px) {
+   .ProductCard {
+        height: 360px;
+        width: 80%;
+    }
+
+    .ProductCard:hover, .ProductCard:active {
+        background-image: var(--img2);
+    }
+
+    .ProductCard h1 {
+        font-size: 1rem;
+    }
+}

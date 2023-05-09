@@ -72,3 +72,29 @@
 .ShowUs .images .down {
     transform: translateY(20px);
 }
+
+@media screen and (max-width: 500px) {
+
+    .ShowUs .title {
+        padding: 32px;
+        flex-direction: column;
+    }
+
+    .ShowUs .title h1 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+
+    .ShowUs .title p {
+        margin-bottom: 8px;
+    }
+
+    .ShowUs .images {
+        padding-bottom: 32px;
+    }
+
+    .ShowUs .images img {
+        height: 192px;
+        width: 192px;
+    }
+}

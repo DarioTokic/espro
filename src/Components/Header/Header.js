@@ -3,9 +3,11 @@ import './Header.css';
 
 import MenuBar from './MenuBar/MenuBar';
 import ItemsMenu from './ItemsMenu/ItemsMenu';
+import MobileMenu from './MobileMenu/MobileMenu';
 
 const Header = (props) => {
     const [isShown, setIsShown] = useState(false);
+    const [mobileIsShown, setMobileIsShown] = useState(false);
 
     return (
         <div className='Header'>
@@ -16,7 +18,16 @@ const Header = (props) => {
                 showItems={() => setIsShown(true)}
                 hideItems={() => setIsShown(false)}
                 isShown={isShown}   
+
+                showMenu={() => setMobileIsShown(true)}
+                hideMenu={() => setMobileIsShown(false)}
+                mobileIsShown={mobileIsShown}
             />
+            {
+                !mobileIsShown && (
+                   <MobileMenu />
+                )
+            }
             {isShown && (
                 <ItemsMenu
                     showItems={() => setIsShown(true)}

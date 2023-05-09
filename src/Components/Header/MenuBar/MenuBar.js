@@ -5,7 +5,10 @@ import logo from '../../../assets/esproLogo.svg';
 import searchLine from '../../../assets/searchLine.svg';
 import myAccount from '../../../assets/myAccount.svg';
 import shoppingBagIcon from '../../../assets/shoppingBagIcon.svg';
-import arrowIosDownwardFill from '../../../assets/arrow-ios-downward-fill.svg'
+import arrowIosDownwardFill from '../../../assets/arrow-ios-downward-fill.svg';
+
+import hamburger from '../../../assets/hamburger.png';
+import reject from '../../../assets/reject.png';
 
 const MenuBar = (props) => {
 
@@ -37,6 +40,8 @@ const MenuBar = (props) => {
                     <span>0</span>
                 </div>
             </div>
+
+            <img className='mobile' src={!props.mobileIsShown ? reject : hamburger} onClick={() => {!props.mobileIsShown ? props.showMenu() : props.hideMenu()}} alt='hamburger' />
         </div>
     )
 };

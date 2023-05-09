@@ -31,6 +31,11 @@ span {
     border-radius: 50%;
 }
 
+
+.MenuBar .mobile {
+    display: none;
+}
+
 @media screen and (max-width: 500px) {
     .MenuBar {
         display: flex;
@@ -44,5 +49,12 @@ span {
 
     .MenuBar .left, .MenuBar .right {
         display: none;
+    }
+
+    .MenuBar .mobile {
+        display: inline;
+        position: absolute;
+        height: 32px;
+        right: 48px;
     }
 }

@@ -9,7 +9,8 @@ const ProductCard = (props) => {
 
         <div 
             onMouseEnter={() => setIsShown(true)}
-            onMouseLeave={() => setIsShown(false)} 
+            onMouseLeave={() => setIsShown(false)}
+            onClick={() => (isShown ? setIsShown(false) : setIsShown(true))}
             className='ProductCard'
             style={{
                 '--img1': `url(${props.img1})`,

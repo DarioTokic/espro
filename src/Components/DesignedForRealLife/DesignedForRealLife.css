@@ -148,10 +148,53 @@
         height: 100dvh;
     }
 
-    .DesignedForRealLife .dots {
-        display: none;
+    .DesignedForRealLife .title {
+        width: 100%;
+    }
+    
+    .DesignedForRealLife .title h1 {
+        font-size: 2rem;
+        padding: 1rem;
     }
 
+    .DesignedForRealLife .title p {
+        padding: 1rem;
+    }
+
+
+    .DesignedForRealLife img {
+        height: 10%;
+    }
     
+    .DesignedForRealLife .img1 {
+        height: 16%;
+        top: 40%;
+    }
     
+    .DesignedForRealLife .img2 {
+        top: 82%;
+        height: 14%;
+    }
+
+    .DesignedForRealLife .img3 {
+        height: 16%;
+        top: 60%;
+        left: 6%;
+    }
+
+    .DesignedForRealLife .img4 {
+        top: 78%;
+        height: 14%;
+        right: 2%
+    }
+
+    .DesignedForRealLife .img5 {
+        top: 60%;
+        right: 12%;
+        height: 16%;
+    }
+
+    .DesignedForRealLife .img6 {
+        top: 34%;
+    }
 }

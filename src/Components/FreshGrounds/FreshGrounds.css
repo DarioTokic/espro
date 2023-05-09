@@ -57,3 +57,27 @@
     padding: 1.6rem 3.4rem;
     margin: -.2rem -.4rem;
 }
+
+@media screen and (max-width: 500px) {
+
+    .FreshGrounds .title {
+        font-size: 3rem;
+    }
+
+    .FreshGrounds .video {
+        margin: 16px;
+        padding: 8%;
+    }
+
+    .FreshGrounds .video h1 {
+        font-size: 2rem;
+    }
+
+    .FreshGrounds .video p {
+        font-size: .8rem;
+    }
+
+    .FreshGrounds .video button {
+        padding: 1rem 2rem;
+    }
+}
