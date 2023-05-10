@@ -99,11 +99,17 @@
 
 .DesignedForRealLife .dots .Dot {
     opacity: 0;
-    transition: all .3s;
+    transition: all 2s;
 }
 
 .DesignedForRealLife .dots .visible {
     opacity: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .DesignedForRealLife .img5 {
+        right: 10%;
+    }
 }
 
 @media screen and (max-width: 900px) {
