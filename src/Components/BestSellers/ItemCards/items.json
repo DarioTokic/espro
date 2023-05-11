@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "ESPRO COFFEE FRENCH PRESS P7",
-        "image": "./products/espro1.webp",
+        "image": ["./products/espro1_1.webp", "./products/espro1_2.webp", "./products/espro1_3.webp"],
         "stars": 5,
         "price": "$109.95 - $139.95",
         "discountedPrice": null,
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "ESPRO COFFEE FRENCH PRESS P6",
-        "image": "./products/espro2.webp",
+        "image": ["./products/espro2_1.webp", "./products/espro2_2.webp"],
         "stars": 4,
         "price": "$89.95",
         "discountedPrice": "$99.95",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "BLOOM POUR OVER COFFEE BREWING KIT, 18 OZ",
-        "image": "./products/espro3.png",
+        "image": ["./products/espro3_1.png"],
         "stars": 5,
         "price": "$99.95",
         "discountedPrice": null,
@@ -32,17 +32,17 @@
     {
         "id": 4,
         "name": "ESPRO ULTRALIGHT COFFEE PRESS P0",
-        "image": "./products/espro4.webp",
+        "image": ["./products/espro4_1.webp", "./products/espro4_2.webp", "./products/espro4_3.webp", "./products/espro4_4.webp", "./products/espro4_5.webp", "./products/espro4_6.webp"],
         "stars": 5,
         "price": "$26.95",
         "discountedPrice": null,
-        "colors": ["#CACCCE", "#FFFFFF", "#676B6D", "#000000", "#000000", "#02205C"],
+        "colors": ["#CACCCE", "#FFFFFF", "#676B6D", "#000000", "#993432", "#02205C"],
         "label": "BACK IN STOCK"
     },
     {
         "id": 5,
         "name": "ESPRO P5 FRENCH PRESS COFFEE MAKER",
-        "image": "./products/espro5.webp",
+        "image": ["./products/espro5_1.webp"],
         "stars": 4,
         "price": "$66.95",
         "discountedPrice": null,
