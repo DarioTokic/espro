@@ -52,8 +52,13 @@
     outline: none!important;
 }
 
-.Footer form input[type=text]:focus {
+.Footer form input[type=email]:focus {
     border: none;
+}
+
+.Footer form input::placeholder {
+    color: #fff;
+    opacity: .7;
 }
 
 .Footer form input[type=submit] {

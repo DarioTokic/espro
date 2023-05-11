@@ -49,19 +49,20 @@ const Card = (props) => {
             </div>
             <div className='colors'>
                 {
-                    props.colors.map((color, index) => <div 
-                                                key={index}
-                                                className={`color ${index === 0 ? 'active' : ''}`}
-                                                style={{backgroundColor: color}} 
-                                                onClick={(e) => {
-                                                    const parent = e.target.parentNode;
-                                                    const colors = parent.querySelectorAll('.color');
-                                                    colors.forEach(color => color.classList.remove('active'));
-                                                    e.target.classList.add('active')
+                    props.colors.map((color, index) => 
+                        <div 
+                            key={index}
+                            className={`color ${index === 0 ? 'active' : ''}`}
+                            style={{backgroundColor: color}} 
+                            onClick={(e) => {
+                                const parent = e.target.parentNode;
+                                const colors = parent.querySelectorAll('.color');
+                                colors.forEach(color => color.classList.remove('active'));
+                                e.target.classList.add('active')
 
-                                                    setImageIndex(index)
-                                                }}  
-                                            />)
+                                setImageIndex(index)
+                            }}  
+                        />)
                 }
             </div>
             </div>

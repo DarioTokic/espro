@@ -21,7 +21,7 @@ const footer = (props) => (
             </div>
             <div className='right'>
                 <form>
-                    <input type='text' placeholder='Enter your email address' ></input>
+                    <input type='email' placeholder='Enter your email address' ></input>
                     <input type='submit' value='SIGN UP'></input>
                 </form>
             </div>

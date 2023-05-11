@@ -43,25 +43,18 @@ class InThePress extends Component {
     }
 
     componentDidMount() {
-        setTimeout(this.autoQuoteIterationHandler, 10000)
-    }
+        if (!this.timeoutSet) {
+          this.timeoutSet = true;
+          setTimeout(this.autoQuoteIterationHandler, 10000);
+        }
+      }
 
    render() {
         return (
             <div className='InThePress'>
                 <h1>IN THE PRESS</h1>
                 <p>
-                {this.state.active === 0 ?
-                    this.state.quotes[0] :
-                this.state.active === 1 ?
-                    this.state.quotes[1] :
-                this.state.active === 2 ?
-                    this.state.quotes[2] :
-                this.state.active === 3 ?
-                    this.state.quotes[3] :
-                this.state.quotes[4]
-
-                }
+                { this.state.quotes[this.state.active] }
                 </p>
                 <div className='logos'>
                     <img onClick={() => this.logoClickHandler(0)} className={this.state.active === 0 ? 'active' : ''} src={pastLogo} alt='pastLogo' />
