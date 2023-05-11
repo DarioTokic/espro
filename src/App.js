@@ -15,6 +15,7 @@ import ShowUs from './Components/ShowUs/ShowUs';
 import TheUltimateBrewGuides from './Components/TheUltimateBrewGuides/TheUltimateBrewGuides';
 
 import heroBg from './assets/heroBackground.png';
+import upArrow from './assets/arrow-ios-downward-fill.svg';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <TheUltimateBrewGuides />
       <ShowUs />
       <Footer />
+      <img onClick={(e) => { e.preventDefault(); document.querySelector('.Header').scrollIntoView({behavior: 'smooth'})}} className='backUp' src={upArrow} alt="up arrow"/>
     </div>
   );
 }
