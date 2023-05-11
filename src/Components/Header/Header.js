@@ -24,7 +24,7 @@ const Header = (props) => {
                 mobileIsShown={mobileIsShown}
             />
             {
-                !mobileIsShown && (
+                mobileIsShown && (
                    <MobileMenu />
                 )
             }

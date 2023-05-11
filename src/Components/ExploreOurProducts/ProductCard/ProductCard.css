@@ -19,6 +19,7 @@
 
 .ProductCard .shopBtn {
     font: normal normal bold 12px/50px Josefin Sans;
+    color: #000;
     margin-top: 16px;
     padding: 0 32px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -38,7 +39,7 @@
         width: 80%;
     }
 
-    .ProductCard:hover, .ProductCard:active {
+    .ProductCard:active {
         background-image: var(--img2);
     }
 

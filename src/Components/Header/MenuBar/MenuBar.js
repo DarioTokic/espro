@@ -41,7 +41,7 @@ const MenuBar = (props) => {
                 </div>
             </div>
 
-            <img className='mobile' src={!props.mobileIsShown ? reject : hamburger} onClick={() => {!props.mobileIsShown ? props.showMenu() : props.hideMenu()}} alt='hamburger' />
+            <img className='mobile' src={props.mobileIsShown ? reject : hamburger} onClick={() => {!props.mobileIsShown ? props.showMenu() : props.hideMenu()}} alt='hamburger' />
         </div>
     )
 };

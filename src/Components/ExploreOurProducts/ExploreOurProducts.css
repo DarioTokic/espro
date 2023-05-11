@@ -18,6 +18,7 @@
 
 .ExploreOurProducts .shopBtn {
     background: none;
+    color: #000;
     border: 1px #000 solid;
     font-weight: bold;
     padding: 1rem;
